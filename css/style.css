@@ -1,5 +1,5 @@
 /* Header */
-header {
+header h1 {
   font-size: 65px;
 }
 
@@ -14,6 +14,7 @@ header {
   color: #2c3e50;
 }
 
+/* Invididual cloud look */
 .cloud {
   width: 22.5em;
   height: 7.5em;
@@ -25,7 +26,7 @@ header {
   margin: 7.5em auto 1.25em;
 }
 
-.cloud:after .cloud:before {
+.cloud:after, .cloud:before {
   content: "";
   position: absolute;
   background-color: #f2f9fe;
@@ -47,7 +48,8 @@ header {
   right: 3.125em;
 }
 
-.clouds.s1{
+/* Styles for separate clouds-sets location */
+.cloud.s1{
   -moz-transform: scale(0.9, 0.9);
   -ms-transform: scale(0.9, 0.9);
   -webkit-transform: scale(0.9, 0,9);
@@ -57,7 +59,7 @@ header {
   -o-animation: moveclouds 30s linear infinite;
 }
 
-.clouds.s2 {
+.cloud.s2 {
   left: 12.5em;
   -moz-transform: scale(0.7, 0.7);
   -ms-transform: scale(0.7, 0.7);
@@ -68,8 +70,8 @@ header {
   -o-animation: moveclouds 50s linear infinite;
 }
 
-.clouds.s3 {
-  left:-15.625em;
+.cloud.s3 {
+  left: -15.625em;
   top: -12.5em;
   -moz-transform: scale(0.4, 0.4);
   -ms-transform: scale(0.4, 0.4);
@@ -80,20 +82,57 @@ header {
   -o-animation: moveclouds 40s linear infinite;
 }
 
-.clouds.s4 {
+.cloud.s4 {
   left: 29.375em;
-  -moz-transform: scale(0.7, 0.7);
-  -ms-transform: scale(0.7, 0.7);
-  -webkit-transform: scale(0.7, 0.7);
-  transform: scale(0.7, 0.7);
-  -webkit-animation: moveclouds 50s linear infinte;
-  -moz-animation: moveclouds 50s linear infinite;
-  -o-animation: moveclouds 50s linear infinite;
+  top:-35.65em;
+  -moz-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+  -webkit-animation: moveclouds 36s linear infinte;
+  -moz-animation: moveclouds 36s linear infinite;
+  -o-animation: moveclouds 36s linear infinite;
 }
 
+.cloud.s5 {
+  left: -38em;
+  top: -38em;
+  -moz-transform: scale(0.3, 0.3);
+  -ms-transform: scale(0.3, 0.3);
+  -webkit-transform: scale(0.3, 0.3);
+  transform: scale(0.3, 0.3);
+  -webkit-animation: moveclouds 44s linear infinte;
+  -moz-animation: moveclouds 44s linear infinite;
+  -o-animation: moveclouds 44s linear infinite;
+}
 
+/* Sets animation so clouds can move */
+@-webkit-keyframes moveclouds {
+  0% {
+    margin-left: 125em;
+  }
+  100% {
+    margin-left: -125em;
+  }
+}
+@-moz-keyframes moveclouds {
+  0% {
+    margin-left: 125em;
+  }
+  100% {
+    margin-left: -125em;
+  }
+}
+@-o-keyframes moveclouds {
+  0% {
+    margin-left: 125em;
+  }
+  100% {
+    margin-left: -125%;
+  }
+}
 
 /* Footer */
-footer {
+footer p {
   font-size: 16px;
 }
