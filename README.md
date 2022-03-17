@@ -1,5 +1,5 @@
 # Pure CSS Animated Cloud Effect
-Codeplayer Pure CSS Animated Clouds Effect project. Made with HTML and CSS.
+Codeplayer Pure CSS Animated Clouds Effect project.
 
 ## Instructions
 Clone or download zip file. Open index.html file in your browser.
