@@ -1,11 +1,14 @@
 # Pure CSS Animated Cloud Effect
-Codeplayer Pure CSS Animated Clouds Effect project.
+Pure CSS Animated Clouds Effect 
+
+## Tech Stack
+- HTML
+- CSS
 
 ## Instructions
-Clone or download zip file. Open index.html file in your browser.
-
-## Contributing
-This repository is based on starter code from TheCodePlayer.com. Therefore I will not be accepting any pull requests.
+1. Clone or download zip file. 
+2. Open index.html file in your browser.
+3. When you opan the page, clouds will start moving across the screen.
 
 ## Acknowledgements
 * TheCodePlayer.com
